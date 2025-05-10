@@ -1,0 +1,19 @@
+<div class="product-card">
+  <div class="product-image-container">
+    <img [ngSrc]="product.imagesUrls[productImgIndex]" alt="Product image" width="256" height="256" class="product-image" />
+
+    <div class="image-navigation">
+      <button (click)="previousImage()"><mat-icon class="material-icons">keyboard_arrow_left</mat-icon></button>
+      <button (click)="nextImage()"><mat-icon class="material-icons">keyboard_arrow_right</mat-icon></button>
+    </div>
+  </div>
+
+  <div class="product-info-wrapper">
+    <div class="product-info">
+      <p class="product-model">{{ product.model }}</p>
+      <p class="product-brand">{{ product.brand }}</p>
+      <p class="product-price">{{ product.price | currency:'EUR':'symbol':'1.2-2' }}</p>
+    </div>
+    <button class="add-to-cart-btn"><mat-icon class="material-icons">add_shopping_cart</mat-icon></button>
+  </div>
+</div>

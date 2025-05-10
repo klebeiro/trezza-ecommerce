@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kleni\\OneDrive\\Desktop\\Workspace\\Chronovault\\chronovault-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4951ED80-A275-4771-B1B4-2280103F57A2}|chronovault-api\\chronovault-api.csproj|c:\\users\\kleni\\onedrive\\desktop\\workspace\\chronovault\\chronovault-api\\chronovault-api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4951ED80-A275-4771-B1B4-2280103F57A2}|chronovault-api\\chronovault-api.csproj|solutionrelative:chronovault-api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\kleni\\OneDrive\\Desktop\\Workspace\\Chronovault\\chronovault-api\\chronovault-api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "chronovault-api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\kleni\\OneDrive\\Desktop\\Workspace\\Chronovault\\chronovault-api\\chronovault-api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "chronovault-api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:43:49.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<nav class="navbar">
+  <button class="navbar__button" (click)="toggleMenu()" aria-label="Menu">
+    <mat-icon class="material-icons">menu</mat-icon>
+  </button>
+  
+  <a class="navbar__logo" href="/">Chronovault</a>
+  
+  <button class="navbar__button" (click)="toggleCart()" aria-label="Carrinho">
+    <mat-icon class="material-icons">shopping_cart</mat-icon>
+  </button>
+</nav>
+
+<div class="cart" *ngIf="IsCartActive">
+  <button class="cart__close" (click)="toggleCart()" aria-label="Fechar carrinho">
+    <mat-icon class="material-icons">close</mat-icon>
+  </button>
+</div>
+
+<div class="menu" *ngIf="IsMenuActive">
+  <button class="menu__close" (click)="toggleMenu()" aria-label="Fechar menu">
+    <mat-icon class="material-icons">close</mat-icon>
+  </button>
+</div>

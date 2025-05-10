@@ -1,0 +1,18 @@
+main {
+    width: 75%;
+    margin: 0 auto;
+    min-height: 60vh;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
