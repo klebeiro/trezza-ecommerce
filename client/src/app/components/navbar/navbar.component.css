@@ -61,19 +61,3 @@ button {
   top: 2.5rem;
   right: 1.5rem;
 }
-
-.menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 30rem;
-  height: 100vh;
-  background-color: black;
-  z-index: 10;
-}
-
-.menu__close {
-  position: absolute;
-  top: 2.5rem;
-  right: 1.5rem;
-}

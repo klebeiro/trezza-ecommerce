@@ -10,11 +10,6 @@ import { NgIf } from '@angular/common';
 })
 export class NavbarComponent {
   IsCartActive: boolean = false;
-  IsMenuActive: boolean = false;
-  
-  toggleMenu() {
-    this.IsMenuActive = !this.IsMenuActive;
-  }
 
   toggleCart() {
     this.IsCartActive = !this.IsCartActive;
