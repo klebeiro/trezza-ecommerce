@@ -6,5 +6,9 @@ namespace chronovault_api.Service.Interfaces {
         List<UserViewModel> GetAllUsers();
 
         UserViewModel GetUserById(int id);
+        
+        void CreateUser(UserCreateRequest request);
+        
+        void UpdateUser(UserUpdateRequest request);
     }
 }
