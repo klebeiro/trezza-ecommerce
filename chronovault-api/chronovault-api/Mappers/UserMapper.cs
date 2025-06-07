@@ -1,5 +1,6 @@
 ﻿using chronovault_api.Model.Response;
 using chronovault_api.Model;
+using chronovault_api.Model.Request;
 
 namespace chronovault_api.Mappers {
     public static class UserMapper {
@@ -26,5 +27,16 @@ namespace chronovault_api.Mappers {
 
             return userViewmodels;
         }
+
+        public static User ToEntity(UserCreateRequest model)
+        {
+            return new User()
+            {
+                Email = model.Email,
+                Nome = model.Nome,
+                Senha = model.Senha,
+            };
+        }
+
     }
 }
