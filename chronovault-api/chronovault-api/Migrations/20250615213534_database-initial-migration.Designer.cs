@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using chronovault_api.Infra.Data;
 
@@ -10,9 +11,11 @@ using chronovault_api.Infra.Data;
 namespace chronovault_api.Migrations
 {
     [DbContext(typeof(ChronovaultDbContext))]
-    partial class ChronovaultDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250615213534_database-initial-migration")]
+    partial class databaseinitialmigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.5");
